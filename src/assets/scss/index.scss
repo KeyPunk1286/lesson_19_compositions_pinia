@@ -1,0 +1,13 @@
+@import './style/index.scss';
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.navigator {
+  padding: 20px 0 20px;
+  a:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}
